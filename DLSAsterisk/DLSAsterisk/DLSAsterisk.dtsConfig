@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="HARVEST\dbadministrator01" GeneratedFromPackageName="AsteriskAdminLoad" GeneratedFromPackageID="{0E3AF473-E002-42E8-B49A-63F8D9FD500F}" GeneratedDate="2/19/2016 2:03:01 PM"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>server=209.242.59.139;uid=cdr_user;password=8ooR0hlW1ng;Dsn=DLSHarvestPBX;description=DLS;database=asteriskadmin;port=3306;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[InitialCatalog]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[Name]" ValueType="String">
+		<ConfiguredValue>209.242.59.139.asteriskadmin.cdr_user</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[Password]" ValueType="String">
+		<ConfiguredValue>8ooR0hlW1ng</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[ProtectionLevel]" ValueType="Int32">
+		<ConfiguredValue>1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[RetainSameConnection]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[ServerName]" ValueType="String">
+		<ConfiguredValue>209.242.59.139</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[209.242.59.139.asteriskadmin.cdr_user].Properties[UserName]" ValueType="String">
+		<ConfiguredValue>cdr_user</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=localhost;User ID=;Initial Catalog=asteriskadmin;Provider=SQLNCLI10.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{94004F6A-F8DE-4BDD-AB4A-FB57D3CB1AC8}localhost.asterisk;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[InitialCatalog]" ValueType="String">
+		<ConfiguredValue>asteriskadmin</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[Name]" ValueType="String">
+		<ConfiguredValue>DWasterisk</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[Password]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[ProtectionLevel]" ValueType="Int32">
+		<ConfiguredValue>1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[RetainSameConnection]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[ServerName]" ValueType="String">
+		<ConfiguredValue>localhost</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DWasterisk].Properties[UserName]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>

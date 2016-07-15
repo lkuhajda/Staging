@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="HARVEST\dbadministrator01" GeneratedFromPackageName="IC_TrucateLoad" GeneratedFromPackageID="{DDEAC85A-9386-409C-8BCF-21FFDA5D1E7D}" GeneratedDate="2/4/2016 10:38:47 PM"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=localhost;User ID=;Initial Catalog=harvest;Provider=SQLNCLI10;Integrated Security=SSPI;Auto Translate=false;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[InitialCatalog]" ValueType="String">
+		<ConfiguredValue>harvest</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[Name]" ValueType="String">
+		<ConfiguredValue>DestinationConnectionOLEDB</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[Password]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[ProtectionLevel]" ValueType="Int32">
+		<ConfiguredValue>1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[RetainSameConnection]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[ServerName]" ValueType="String">
+		<ConfiguredValue>localhost</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationConnectionOLEDB].Properties[UserName]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=Ilcloud1.infinitecampus.org,7771;User ID=dschmer;Password=D@rlene123;Initial Catalog=harvest;Provider=SQLNCLI10.1;Persist Security Info=True;Auto Translate=false;Application Name=SSIS-IC_TrucateLoad-{0EDE6E89-4587-418F-A15B-49404AB5291B}SourceConnectionOLEDB;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[Description]" ValueType="String">
+		<ConfiguredValue></ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[InitialCatalog]" ValueType="String">
+		<ConfiguredValue>harvest</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[Name]" ValueType="String">
+		<ConfiguredValue>SourceConnectionOLEDB</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[Password]" ValueType="String">
+		<ConfiguredValue>D@rlene123</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[ProtectionLevel]" ValueType="Int32">
+		<ConfiguredValue>1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[RetainSameConnection]" ValueType="Boolean">
+		<ConfiguredValue>0</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[ServerName]" ValueType="String">
+		<ConfiguredValue>Ilcloud1.infinitecampus.org,7771</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceConnectionOLEDB].Properties[UserName]" ValueType="String">
+		<ConfiguredValue>dschmer</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>
